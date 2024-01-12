@@ -1,6 +1,6 @@
 ---
 title: Prodotto leasing
-sub_title: sottotitotlo
+sub_title: sottotitolo
 seo_title: leasing seo
 seo_decription: bla bla seo.
 image: /media/screenshot 2024-01-12 alle 16.42.02.png
