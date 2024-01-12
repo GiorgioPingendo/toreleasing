@@ -1,5 +1,8 @@
 ---
 title: Prodotto leasing
+sub_title : "sottotitlo"
+seo_title : leasing
+description : descrivi la pagina
 layout: blog.html
 ---
 Il leasing è un contratto in cui una parte (concedente) concede ad un’altra (utilizzatore) - per un periodo di tempo prefissato e ad un corrispettivo periodico - il godimento di un bene acquistato dalla concedente su indicazione e scelta dell’utilizzatore con facoltà, per quest’ultimo, di acquistare la proprietà del bene alla scadenza del contratto contro il versamento di un prezzo prestabilito.
