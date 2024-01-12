@@ -1,0 +1,17 @@
+backend:
+  name: git-gateway
+  branch: main
+media_folder: "media"
+collections:
+  - name: "posts"
+    label: "Post"
+    folder: "posts"
+    create: true
+    fields:
+      - {label: "Titolo", name: "title", widget: "string"}
+      - {label: "Sottotitolo", name: "sub_title", widget: "string"}
+      - {label: "Seo - Titolo", name: "seo_title", widget: "string"}
+      - {label: "Seo - Descrizione", name: "seo_decription", widget: "string"}
+      - {label: "Immagine", name: "image", widget: "image"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "blog.html"}
