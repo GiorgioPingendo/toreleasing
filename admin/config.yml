@@ -1,0 +1,12 @@
+backend:
+  name: git-gateway
+  branch: main
+media_folder: "media"
+collections:
+  - name: "posts"
+    label: "Post"
+    folder: "posts"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
