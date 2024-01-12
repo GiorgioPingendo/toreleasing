@@ -1,0 +1,150 @@
+
+TEMPLATE RESOURCES' ATTRIBUTIONS
+
+Below you can find a list of all the resources (plugins, images, icons, fonts) used for creating the template.
+You'll find the author name, type of license and a link where the resource can be downloaded.
+
+
+
+****** BOOTSTRAP ******
+
+Author(s):
+@mdo (http://twitter.com/mdo), @fat (http://twitter.com/fat).
+
+License(s):
+Code licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE),
+Documentation under CC BY 3.0 (http://creativecommons.org/licenses/by/3.0/).
+
+Link(s):
+http://getbootstrap.com/
+
+
+
+****** BACKSTRETCH JQUERY PLUGIN - FULLSCREEN BACKGROUND SLIDESHOW ******
+
+Author(s):
+Scott Robbin (http://srobbin.com/).
+
+License(s):
+MIT License
+
+Link(s):
+http://srobbin.com/jquery-plugins/backstretch/
+
+
+
+****** COUNTDOWN JQUERY PLUGIN ******
+
+Author(s):
+Edson Hilios (http://edson.hilios.com.br/).
+
+License(s):
+MIT License
+
+Link(s):
+http://github.com/hilios/jquery.countdown
+
+
+
+****** RETINA.JS ******
+
+Author(s):
+Imulus (http://imulus.com/).
+
+License(s):
+MIT License (https://github.com/imulus/retinajs/blob/master/LICENSE)
+
+Link(s):
+https://github.com/imulus/retinajs
+
+
+
+****** JQUERY ******
+
+Author(s):
+jQuery Foundation (http://jquery.org/).
+
+License(s):
+MIT License (http://github.com/jquery/jquery/blob/master/MIT-LICENSE.txt)
+
+Link(s):
+http://jquery.com/
+
+
+
+****** WOW.JS ******
+
+Author(s):
+Matthieu Aussaguel (http://mynameismatthieu.com/).
+
+License(s):
+MIT License
+
+Link(s):
+http://mynameismatthieu.com/WOW/
+
+
+
+****** ANIMATE.CSS ******
+
+Author(s):
+Daniel Eden (http://daneden.me).
+
+License(s):
+MIT License
+
+Link(s):
+http://daneden.me/animate
+
+
+
+****** JQUERY WAYPOINTS ******
+
+Author(s):
+I MAKE WEB THINGS (http://imakewebthings.com/).
+
+License(s):
+MIT License (https://github.com/imakewebthings/jquery-waypoints/blob/master/licenses.txt)
+
+Link(s):
+http://imakewebthings.com/jquery-waypoints/
+
+
+
+****** Raleway FONT ******
+
+Author(s):
+Multiple Designers (https://fonts.google.com/specimen/Raleway).
+
+License(s):
+Open Font License (http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL_web)
+
+Link(s):
+https://fonts.google.com/specimen/Raleway
+
+
+
+****** FONT AWESOME ******
+
+Author(s):
+Dave Gandy (http://twitter.com/davegandy).
+
+License(s):
+MIT License (http://opensource.org/licenses/mit-license.html)
+
+Link(s):
+http://fontawesome.io/
+
+
+
+****** PHOTOS ******
+
+Author(s):
+StockSnap (https://stocksnap.io/).
+
+License(s): 
+CC0 (https://creativecommons.org/publicdomain/zero/1.0/).
+
+Link(s): 
+https://stocksnap.io/
+
