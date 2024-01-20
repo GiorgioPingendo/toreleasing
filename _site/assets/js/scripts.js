@@ -66,13 +66,14 @@ jQuery(document).ready(function() {
 	$('.c-form-1-box form input[type="text"], .c-form-1-box form textarea').on('focus', function() {
 		$('.c-form-1-box form input[type="text"], .c-form-1-box form textarea').removeClass('contact-error');
 	});
+
 	$('.c-form-1-box form').submit(function(e) {
 		e.preventDefault();
 	    $('.c-form-1-box form input[type="text"], .c-form-1-box form textarea').removeClass('contact-error');
 	    var postdata = $(this).serialize();
 	    $.ajax({
 	        type: 'POST',
-	        url: 'assets/contact.php',
+	        url: '/.netlify/functions/send',
 	        data: postdata,
 	        dataType: 'json',
 	        success: function(json) {

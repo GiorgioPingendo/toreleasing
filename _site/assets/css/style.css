@@ -164,7 +164,7 @@ ul.navbar-nav { font-size: 15px; color: #fff; }
 
 .navbar-brand {
 	width: 90px;
-	background: url(../img/logo.png) left center no-repeat;
+	/* background: url(../img/logo.png) left center no-repeat; */
 	text-indent: -99999px;
 }
 .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand { margin-left: 0; }
@@ -476,3 +476,11 @@ footer a:hover, footer a:focus { border-bottom: 1px dotted #42bfc2; outline: 0; 
 }
 .footer-menu ul { margin: 0; padding: 0; list-style: none; }
 .footer-menu li { display: inline; margin-left: 20px; }
+
+
+.logo {
+	font-family: 'Lora', serif;
+	font-weight: 400; 
+	font-style: italic; 
+	font-size: xx-large;
+}

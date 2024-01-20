@@ -1,0 +1,7 @@
+
+[build]
+    publish = "_site"
+    functions = "functions/"
+
+[dev]
+    functions = "functions/"
