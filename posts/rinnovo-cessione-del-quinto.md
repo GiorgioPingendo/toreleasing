@@ -1,14 +1,16 @@
 ---
 title: RINNOVO CESSIONE DEL QUINTO
 sub_title: Cosa sapere per il rinnovo della cessione del quinto
-seo_title: Rinnovo cessione del quinto
-seo_decription: Come fare per rinnovare la cessione del quinto
+seo_title: Rinnovo cessione del quinto - Tutte le informazioni necessarie
+seo_decription: Scopri tutte le informazioni aggiornate per rinnovare la cessione del quinto
 image: /media/images.jpeg
 layout: blog.html
 ---
+# RINNOVO CESSIONE DEL QUINTO
+
 Una delle caratteristiche fondamentali della **cessione del quinto **è quella  di poter essere rinegoziata prima della scadenza  per ottenere  ulteriore liquidità andando a estinguere il precedente finanziamento. Questo deve avvenire a determinate condizioni come specificato nel D.P.R. 5 gennaio 1950 n. 180 che regola l'erogazione della cessione del quinto per dipendenti e pensionati.
 
-**_Tempistica_**
+## _**Tempistica**_
 
 La cessione del quinto potrete rinnovarla solo dopo aver pagato il 40%. Quindi se avete sottoscritto  un finanziamento in 120 mesi potrete rinegoziarla solo dopo aver pagato 48 rate.
 
@@ -30,7 +32,7 @@ una 108 mesi dopo 44
 
 una 120 mesi dopo 48 rate.
 
-Vantaggi 
+## Vantaggi rinnovo cessione del quinto
 
 La **cessione del quinto** viene rinnovata per esigenze di liquidità in quanto col nuovo prestito la finanziaria deve necessariamente saldare quello sottoscritto precedentemente e la differenza tra l’erogato del nuovo e l’estinzione del vecchio prestito verrà erogata come nuova liquidità.
 
@@ -38,7 +40,7 @@ Un ulteriore vantaggio puo’ essere una sostanziale riduzione degli interessi a
 
 Quindi sarà bene andare a controllare attentamente la differenza di costi (fate riferimento al taeg ) tra i due prestiti per capire se state effettuando una buona operazione anche perché spesso il nuovo contratto prevede un allungamento della durata del piano di ammortamento ed è bene quindi andare a compensare almeno in parte con dei costi complessivi minori .Per esempio se state pagando una cessione del quinto con taeg al 12% e residuo di 72 rate se effettuate un rinnovo allungando il prestito di altri 48 mesi ma con un taeg del 8% avrete da un lato un aumento di 4 anni della durata ma dall’altra un risparmio sui rimanenti 6 anni del precedente prestito.
 
-**_Rimborso costi _**
+## _**Rimborso costi quando rinnovo la cessione del quinto**_
 
 L’estinzione anticipata della precedente cessione del quinto vi da diritto al rimborso di alcuni costi sostenuti anticipatamente previsti  nel contratto che erano relazionati alla durata iniziale del contratto. Andando a chiudere anticipatamente questo contratto i costi relativi alla durata residua devono essere rimborsati.
 
@@ -48,6 +50,6 @@ In questo caso è bene contattare la finanziaria per chiedere quali sono le moda
 
 Non saranno invece rimborsati i cosiddetti costi Up front come per esempio le spese di istruttoria o il costo della gestione della pratica in quanto prescindono dalla durata del finanziamento .
 
-**_Consigli_**
+_**Consigli**_
 
 Si consiglia in caso vogliate procedere a una rinegoziazione della cessione del quinto di  chiedere preventivamente il conteggio estintivo alla finanziaria col quale avete in corso il prestito per calcolare esattamente quanto potreste ottenere facendo la sottrazione tra il nuovo preventivo e l’importo indicato nel conteggio .Questo perché sul nuovo contratto non è indicato l’importo del saldo e dovrete fidarvi probabilmente dell’agente o dell’operatore di banca che vi stà istruendo l’operazione.
