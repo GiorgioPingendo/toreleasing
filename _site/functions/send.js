@@ -1,10 +1,9 @@
 const sgMail = require('@sendgrid/mail');
 var x = require('dotenv').config();
 const querystring = require('querystring');
-
-console.log( x);
-
 exports.handler = async (event, context) => {
+
+  console.log("cod")
   if (event.httpMethod !== 'POST') {
     return { statusCode: 405, body: 'Method Not Allowed' };
   }
@@ -12,9 +11,7 @@ exports.handler = async (event, context) => {
   const formData = querystring.parse(event.body);
 
 
-  console.log( formData )
-  const params = JSON.parse(event.body);
-  const { name, email, subject, message } = params;
+  const { name, email, subject, message } = formData;
 
   let response = {
     nameMessage: '',
@@ -46,10 +43,10 @@ exports.handler = async (event, context) => {
   sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
   const msg = {
-    to: 'contact.azmind@gmail.com',
+    to: 'giorgio.seregni@gmail.com',
     from: email,
     subject: `${subject} (faby layout 3)`,
-    text: `Message from: ${name}\n${message}`
+    text: `Message from`
   };
 
   try {
