@@ -1,5 +1,5 @@
 ---
-title: RINNOVO CESSIONE DEL QUINTO
+title: Cessione del quinto
 sub_title: Cosa sapere se vuoi rinnovare la cessione del quinto
 seo_title: Rinnovo cessione del quinto
 seo_decription: Informazioni sul rinnovo della cessione del quinto
