@@ -8,6 +8,7 @@ collections:
     folder: "posts"
     create: true
     fields:
+      - {label: "FAQ", name: "isFaq", widget: "boolean", default: false}
       - {label: "Titolo", name: "title", widget: "string"}
       - {label: "Sottotitolo", name: "sub_title", widget: "string"}
       - {label: "Seo - Titolo", name: "seo_title", widget: "string"}
