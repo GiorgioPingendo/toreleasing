@@ -8,11 +8,12 @@ collections:
     folder: "posts"
     create: true
     fields:
+      - {label: "FAQ", name: "isFaq", widget: "boolean", default: false}
       - {label: "Titolo", name: "title", widget: "string"}
       - {label: "Sottotitolo", name: "sub_title", widget: "string"}
       - {label: "Seo - Titolo", name: "seo_title", widget: "string"}
       - {label: "Seo - Descrizione", name: "seo_decription", widget: "string"}
       - {label: "Immagine", name: "image", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Body Corto", name: "short_body", widget: "markdown"}
+      - {label: "Body Corto", name: "short_body", widget: "markdown",  required: false}
       - {label: "Layout", name: "layout", widget: "hidden", default: "blog.html"}
