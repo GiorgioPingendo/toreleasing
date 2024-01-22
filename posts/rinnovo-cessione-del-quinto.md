@@ -53,3 +53,7 @@ Non saranno invece rimborsati i cosiddetti costi Up front come per esempio le sp
 _**Consigli**_
 
 Si consiglia in caso vogliate procedere a una rinegoziazione della cessione del quinto di  chiedere preventivamente il conteggio estintivo alla finanziaria col quale avete in corso il prestito per calcolare esattamente quanto potreste ottenere facendo la sottrazione tra il nuovo preventivo e l’importo indicato nel conteggio .Questo perché sul nuovo contratto non è indicato l’importo del saldo e dovrete fidarvi probabilmente dell’agente o dell’operatore di banca che vi stà istruendo l’operazione.
+
+
+
+as
