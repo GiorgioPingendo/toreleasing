@@ -33,4 +33,4 @@ fs.readdirSync(postsDirectory).forEach(file => {
 const xmlSitemap = js2xmlparser.parse("urlset", sitemap);
 
 // Scrivi la sitemap in un file sitemap.xml, sovrascrivendo il file se esiste già
-fs.writeFileSync('sitemap.xml', xmlSitemap);
+fs.writeFileSync('_site/sitemap.xml', xmlSitemap);
