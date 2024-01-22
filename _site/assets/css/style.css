@@ -483,4 +483,5 @@ footer a:hover, footer a:focus { border-bottom: 1px dotted #42bfc2; outline: 0; 
 	font-weight: 400; 
 	font-style: italic; 
 	font-size: xx-large;
+	padding-top: 10px !important
 }

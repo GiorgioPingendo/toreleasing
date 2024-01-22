@@ -77,25 +77,12 @@ jQuery(document).ready(function() {
 	        data: postdata,
 	        dataType: 'json',
 	        success: function(json) {
-	        	if(json.nameMessage != '') {
-	                $('.c-form-1-box form .c-form-1-name').addClass('contact-error');
-	            }
-	            if(json.emailMessage != '') {
-	                $('.c-form-1-box form .c-form-1-email').addClass('contact-error');
-	            }
-	            if(json.subjectMessage != '') {
-	                $('.c-form-1-box form .c-form-1-subject').addClass('contact-error');
-	            }
-	            if(json.messageMessage != '') {
-	                $('.c-form-1-box form .c-form-1-message').addClass('contact-error');
-	            }
-	            if(json.nameMessage == '' && json.emailMessage == '' && json.subjectMessage == '' && json.messageMessage == '') {
-	            	$('.c-form-1-box form').fadeOut('fast', function() {
-	                    $('.c-form-1-bottom').append('<p>Thanks for contacting us! We will get back to you very soon.</p>');
-	                    // reload background
-	    				$('.top-content').backstretch("resize");
-	                });
-	            }
+
+				$('.c-form-1-box form').fadeOut('fast', function() {
+					$('.c-form-1-bottom').append('<p>GRAZIE PER IL TUO CONTATTO!</p>');
+					// reload background
+					$('.top-content').backstretch("resize");
+				});
 	        }
 	    });
 	});
