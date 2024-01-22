@@ -14,5 +14,5 @@ collections:
       - {label: "Seo - Descrizione", name: "seo_decription", widget: "string"}
       - {label: "Immagine", name: "image", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Body Corto", name: "short_body", widget: "markdown"}
+      - {label: "Body Corto", name: "short_body", widget: "markdown",  required: false}
       - {label: "Layout", name: "layout", widget: "hidden", default: "blog.html"}
