@@ -1,4 +1,5 @@
 ---
+isFaq: true
 title: Cessione del quinto
 sub_title: Cessione del quinto della pensione e dello stipedio
 seo_title: Cessione del quinto
