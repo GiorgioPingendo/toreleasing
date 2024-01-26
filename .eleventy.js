@@ -1,6 +1,7 @@
 module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("media");
     eleventyConfig.addPassthroughCopy("assets");
+    eleventyConfig.addPassthroughCopy("assets/css");
     eleventyConfig.addPassthroughCopy("admin");
     eleventyConfig.addPassthroughCopy(".env");
     eleventyConfig.addPassthroughCopy("functions");
