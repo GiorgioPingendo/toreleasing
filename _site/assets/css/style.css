@@ -18,6 +18,14 @@ a, a:hover, a:focus {
 h1, h2 { margin-top: 10px; font-size: 36px; font-weight: 700; color: #555; line-height: 44px; }
 h3 { font-size: 22px; font-weight: 400; color: #555; line-height: 30px; }
 
+.great-support h1, .great-support h2, .great-support h3{
+	color:white;
+}
+.great-support-box-text h1, .great-support-box-text h2, .great-support-box-text h3{
+	color:white;
+}
+
+
 img { max-width: 100%; }
 
 .medium-paragraph { font-size: 18px; line-height: 34px; }
