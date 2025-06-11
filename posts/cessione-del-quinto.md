@@ -3,10 +3,9 @@ isFaq: false
 title: Cessione del quinto
 sub_title: Cessione del quinto della pensione e dello stipedio
 seo_title: Cessione del quinto
-seo_decription: >-
-  Cessione del quinto della pensione e dello stipendio. Tutto quello che c'è da
-  sapere
-image: /media/images (1).jpeg
+seo_decription: Cessione del quinto della pensione e dello stipendio. Tutto
+  quello che c'è da sapere
+image: /media/images.jpeg
 layout: blog.html
 ---
 # La Cessione del Quinto dello Stipendio e della Pensione: Un Approfondimento su Vantaggi e Considerazioni
