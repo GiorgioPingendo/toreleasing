@@ -6,8 +6,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Prestito ''In'' - Richiedi un preventivo: prestito personale-cessione del quinto </title
->
+	<title>Prestito ''In'' - Richiedi un preventivo: prestito personale-cessione del quinto </title>
 	
 	<meta name="description" content="Cerca e ottieni finanziamenti rapidi con Prestito &quot;In&quot;. Richiedi prestiti su misura per le tue esigenze finanziarie. Approvazione veloce e tassi convenienti.">
 
@@ -61,7 +60,7 @@
 					<li><a href="/news">NEWS</a></li>
 					<li><a class="scroll-link" href="#how-it-works">FAQ</a></li>
 					<li><a class="scroll-link2" href="#footer">CONTATTI</a></li>
-				</ul>x
+				</ul>
 			</div>
 		</div>
 	</nav>
@@ -249,8 +248,8 @@
 	</div>
 
 
-	<!-- How it works -->
-	<div class="how-it-works-container section-container section-container-image-bg">
+	<!-- How it works - FAQ DINAMICHE -->
+	<div id="how-it-works" class="how-it-works-container section-container section-container-image-bg">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12 how-it-works section-description wow fadeIn">
@@ -261,77 +260,23 @@
 					<p class="medium-paragraph">Risposte alle domande più comuni sui nostri servizi di prestito.</p>
 				</div>
 			</div>
+			
+			<!-- FAQ dinamiche da collezione Eleventy -->
 			<div class="row">
-				<!-- FAQ 1 -->
-				<div class="col-sm-4 how-it-works-box wow fadeInUp">
-					<div class="how-it-works-number">12</div>
-					<h3>Che cos'è un prestito personale?</h3>
-					<p>Un prestito personale è un credito per scopi personali, disponibile per individui che soddisfano
-						criteri specifici di idoneità.</p>
+				{% for faq in collections.faq %}
+				<div class="col-sm-4 how-it-works-box wow {% cycle 'fadeInUp', 'fadeInDown', 'fadeInUp' %}">
+					<div class="how-it-works-number">{{ faq.data.order | default: forloop.index }}</div>
+					<h3>{{ faq.data.title }}</h3>
+					{% if faq.data.sub_title %}
+					<p class="faq-subtitle"><strong>{{ faq.data.sub_title }}</strong></p>
+					{% endif %}
+					{% if faq.content %}
+					<p>{{ faq.content | strip_html | truncate: 150 }}</p>
+					{% endif %}
 				</div>
-				<!-- FAQ 2 -->
-				<div class="col-sm-4 how-it-works-box wow fadeInDown">
-					<div class="how-it-works-number">2</div>
-					<h3>Requisiti per un prestito</h3>
-					<p>I requisiti variano ma includono generalmente un controllo del credito, prova di reddito stabile
-						e, in alcuni casi, una garanzia.</p>
-				</div>
-				<!-- FAQ 3 -->
-				<div class="col-sm-4 how-it-works-box wow fadeInUp">
-					<div class="how-it-works-number">3</div>
-					<h3>Cessione del quinto</h3>
-					<p>La cessione del quinto prevede il rimborso tramite trattenuta mensile non superiore a un quinto
-						dello stipendio o della pensione.</p>
-				</div>
+				{% endfor %}
 			</div>
-			<div class="row">
-				<!-- FAQ 4 -->
-				<div class="col-sm-4 how-it-works-box wow fadeInDown">
-					<div class="how-it-works-number">4</div>
-					<h3>Leasing vs Prestito Personale</h3>
-					<p>Il leasing implica il noleggio di un bene con opzione di acquisto, mentre il prestito personale
-						fornisce una somma di denaro da rimborsare.</p>
-				</div>
-				<!-- FAQ 5 -->
-				<div class="col-sm-4 how-it-works-box wow fadeInUp">
-					<div class="how-it-works-number">5</div>
-					<h3>Tempi di approvazione</h3>
-					<p>I tempi di approvazione variano a seconda del tipo di prestito e del prestatore, e possono andare
-						da pochi giorni a periodi più lunghi.</p>
-				</div>
-				<!-- FAQ 6 -->
-				<div class="col-sm-4 how-it-works-box wow fadeInDown">
-					<div class="how-it-works-number">6</div>
-					<h3>Calcolo delle rate</h3>
-					<p>Utilizza le nostre calcolatrici online per stimare le rate mensili in base all'importo del
-						prestito, al tasso di interesse e alla durata.</p>
-				</div>
-			</div>
-			<div class="row">
-				<!-- FAQ 7 -->
-				<div class="col-sm-4 how-it-works-box wow fadeInUp">
-					<div class="how-it-works-number">7</div>
-					<h3>Penalità per rimborso anticipato</h3>
-					<p>Verifica i termini del prestito per comprendere eventuali commissioni o penalità per il rimborso
-						anticipato del prestito.</p>
-				</div>
-				<!-- FAQ 8 -->
-				<div class="col-sm-4 how-it-works-box wow fadeInDown">
-					<div class="how-it-works-number">8</div>
-					<h3>Prestiti con altri debiti</h3>
-					<p>È possibile, ma valuteremo il tuo rapporto debito/reddito e la tua storia creditizia prima di
-						approvare un ulteriore prestito.</p>
-				</div>
-				<!-- FAQ 9 -->
-				<div class="col-sm-4 how-it-works-box wow fadeInUp">
-					<div class="how-it-works-number">9</div>
-					<h3>Conseguenze di Mancato Pagamento</h3>
-					<p>In caso di mancato pagamento, il debitore può incorrere in penalità, aumento dei tassi di
-						interesse e un impatto negativo sulla propria storia creditizia. In alcuni casi, potrebbe
-						esserci anche un'azione legale.</p>
-				</div>
-
-			</div>
+			
 			<div class="row">
 				<div class="col-sm-12 section-bottom-button wow fadeInUp">
 					<a class="btn btn-link-1 scroll-link" href="#top-content">Contattaci <i
@@ -369,7 +314,7 @@
 
 					<h3>Trasparenza</h3>
 					<p >
-						PRESTITO "IN" SERVIZI FINANZIARI DI SALVATORE BAVA - AGENTE IN ATTIVITA' FINANZIARIA - MONOMANDATARIO AGOS DUCATO SPA | ISCRIZIONE OAM A13038 - PARTITA IVA 11140990968. Vi ricordiamo che la richiesta dei prodotti è soggetta ad approvazione di Agos Ducato S.p.A. Messaggio pubblicitario. Per ulteriori informazioni richiedere sul sito,in filiale o in agenzia il “Modulo informazioni europee di Base sul credito ai consumatori” (SECCI) e copia del testo contrattuale.
+						PRESTITO "IN" SERVIZI FINANZIARI DI SALVATORE BAVA - AGENTE IN ATTIVITA' FINANZIARIA - MONOMANDATARIO AGOS DUCATO SPA | ISCRIZIONE OAM A13038 - PARTITA IVA 11140990968. Vi ricordiamo che la richiesta dei prodotti è soggetta ad approvazione di Agos Ducato S.p.A. Messaggio pubblicitario. Per ulteriori informazioni richiedere sul sito,in filiale o in agenzia il "Modulo informazioni europee di Base sul credito ai consumatori" (SECCI) e copia del testo contrattuale.
 					</p>
 					
 				</div>

@@ -15,5 +15,19 @@ collections:
       - {label: "Seo - Descrizione", name: "seo_decription", widget: "string"}
       - {label: "Immagine", name: "image", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Body Corto", name: "short_body", widget: "markdown",  required: false}
+      - {label: "Body Corto", name: "short_body", widget: "markdown", required: false}
       - {label: "Layout", name: "layout", widget: "hidden", default: "blog.html"}
+  
+  
+  - name: "faq"
+    label: "FAQ"
+    folder: "faq"
+    create: true
+    fields:
+      - {label: "Titolo (Domanda)", name: "title", widget: "string"}
+      - {label: "Sottotitolo", name: "sub_title", widget: "string", required: false}
+      - {label: "Ordine", name: "order", widget: "number", default: 1, value_type: "int", min: 1, max: 999}
+    
+    # Configurazione della vista lista
+    summary: "{{title}} - Ordine: {{order}}"
+    sortable_fields: ['order', 'title']
