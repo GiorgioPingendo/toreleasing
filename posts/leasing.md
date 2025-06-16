@@ -1,5 +1,5 @@
 ---
-isFaq: true
+isFaq: false
 title: Leasing
 sub_title: sottotitolo
 seo_title: leasing seo
