@@ -1,9 +1,10 @@
 ---
+isFaq: true
 title: Prestito personale
 sub_title: Prestito personale
 seo_title: Prestito personale - Di cosa si tratta e come richiederlo?
 seo_decription: Scopri i dettagli di questo prodotto in questo nostro articolo approfondito.
-image: /media/download (1).jpeg
+image: /media/images.jpeg
 layout: blog.html
 ---
 #  "Il Prestito Personale: Una Guida Approfondita per Comprendere Questo Strumento Finanziario"
