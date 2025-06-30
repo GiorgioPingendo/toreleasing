@@ -18,7 +18,7 @@ La cessione del quinto prevede che il lavoratore o il pensionato possa ottenere 
 
 ## Vantaggi della Cessione del Quinto:
 
-Facilità di Accesso: La cessione del quinto è relativamente facile da ottenere. Gli enti finanziatori si basano principalmente sulla certezza di ottenere il rimborso tramite trattenuta diretta dalla fonte del reddito.
+
 
 Rate Fisse e Pianificabili: Il rimborso avviene tramite rate fisse, semplificando la pianificazione finanziaria per il beneficiario. Questo può essere particolarmente utile per coloro che desiderano evitare sorprese legate a tassi di interesse variabili.
 
