@@ -1,37 +1,17 @@
 ---
 isFaq: true
 title: Delegazione di pagamento
-sub_title: Terzo Prodotto
-seo_title: Terzo Prodotto
-seo_decription: Terzo Prodotto
+sub_title: Delegazione di pagamento
+seo_title: Delegazione di pagamento
+seo_decription: Delegazione di pagamento
 image: /media/images.jpeg
 layout: blog.html
 ---
-Prestito mediante delegazione di pagamento: cos’è e quando conviene
-
-Hai già una cessione del quinto attiva ma ti serve altra liquidità? In questi casi entra in gioco il prestito mediante delegazione di pagamento, conosciuto anche come doppio quinto.
-
-Cos’è la delegazione di pagamento
-
-Si tratta di un finanziamento riservato ai lavoratori dipendenti (pubblici, privati e statali) che consente di affiancare alla cessione del quinto una seconda trattenuta in busta paga. In pratica, ogni mese la rata viene prelevata direttamente dallo stipendio, con la garanzia che sarà il datore di lavoro a versarla alla banca o alla finanziaria.
-
-Quanto si può ottenere
-
-Con la sola cessione del quinto, la rata massima non può superare il 20% dello stipendio. Grazie alla delegazione, si può aggiungere un ulteriore 20%. Questo significa che fino al 40% dello stipendio netto può essere destinato al rimborso delle rate.
-
-I vantaggi
-
-Rata fissa e prevedibile per tutta la durata del prestito.
-
-Possibilità di ottenere nuova liquidità anche se si ha già un finanziamento in corso.
-
-
-Gli aspetti da considerare
-
-Serve l’ok del datore di lavoro, che non è obbligato a concederlo.
-
-Riduce lo stipendio netto disponibile, quindi va valutata attentamente la sostenibilità delle rate.
-
-È riservato solo a chi ha un contratto di lavoro a tempo indeterminato.
-
-👉 In poche parole, la delegazione di pagamento è una soluzione utile per chi ha già una cessione del quinto e necessita di ulteriore credito. Tuttavia, come per ogni prestito, è importante fare bene i conti e capire se l’impegno mensile è compatibile con il proprio bilancio familiare.
+Prestiti con delegazione di pagamento: richiedili con Agos
+La delegazione di pagamento può essere richiesta anche da chi ha già ottenuto una cessione del quinto. Nel caso di coesistenza di cessione del quinto e delegazione di pagamento, le due rate complessivamente non possono superare i 2/5 dello stipendio. Per avere efficacia, la delegazione di pagamento deve essere accettata per iscritto dal datore di lavoro.
+PRINCIPALI CARATTERISTICHE DELLA DELEGAZIONE DI PAGAMENTO:
+la serenità di una rata fissa che non può superare il 20% dell’importo dello stipendio netto (salva coesistenza di una cessione del quinto);
+la comodità di richiedere importi elevati, rimborsando fino a 120 mesi;
+la sicurezza di Polizze rischio vita e rischio impiego stipulate direttamente da Agos con pagamento a Suo esclusivo carico;
+non è richiesta la presenza di un coobbligato;
+valutabile anche in caso di altri finanziamenti in essere ed eventuali precedenti difficoltà di accesso al credito.
