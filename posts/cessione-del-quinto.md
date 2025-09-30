@@ -8,32 +8,40 @@ seo_decription: Cessione del quinto della pensione e dello stipendio. Tutto
 image: /media/images.jpeg
 layout: blog.html
 ---
-# La Cessione del Quinto dello Stipendio e della Pensione: Un Approfondimento su Vantaggi e Considerazioni
+Cessione del quinto per dipendenti pubblici, privati e pensionati
+La cessione del quinto dello stipendio o della pensione è un finanziamento dedicato ai lavoratori dipendenti pubblici o privati e ai pensionati in cui la rata di rimborso viene trattenuta comodamente in busta paga o sul cedolino della pensione direttamente dal datore di lavoro o dall'ente.
 
-La cessione del quinto dello stipendio e della pensione è un prodotto finanziario sempre più diffuso in Italia, rivolto a dipendenti pubblici e privati, così come a pensionati. Questo strumento offre un modo flessibile per ottenere liquidità immediata, consentendo ai beneficiari di restituire l'importo ricevuto attraverso rate mensili, che vengono trattenute direttamente dalla busta paga o dalla pensione. In questo articolo, esploreremo i vantaggi e le considerazioni legate a questa pratica.
+COME FUNZIONA LA CESSIONE DEL QUINTO AGOS?
+La cessione del quinto a dipendenti pubblici e privati e ai pensionati offre la serenità di una rata fissa che non può superare il 20% dell’importo dello stipendio netto o della pensione, per finanziare i tuoi progetti come la ristrutturazione di una casa o l’acquisto di un’auto.
 
-## Come Funziona la Cessione del Quinto:
+QUALI SONO I VANTAGGI DELLA CESSIONE DEL QUINTO?
+la comodità di richiedere importi elevati, rimborsando fino a 120 mesi;
+la copertura di polizze rischio vita e rischio impiego obbligatorie per legge, con costi a carico di Agos;
+Non è necessario un garante;
+valutabile anche in caso di altri finanziamenti in essere ed eventuali precedenti difficoltà di accesso al credito.
 
-La cessione del quinto prevede che il lavoratore o il pensionato possa ottenere fino al 20% del proprio stipendio o della pensione netta mensile. La somma massima che può essere erogata corrisponde quindi al quinto dello stipendio o della pensione, da cui il nome del prodotto. L'importo massimo prelevabile è calcolato sulla base del reddito e delle eventuali altre detrazioni, garantendo che la rata mensile non superi il 20% del netto.
+QUALI DOCUMENTI SONO NECESSARI PER RICHIEDERE UNA CESSIONE DEL QUINTO?
 
-## Vantaggi della Cessione del Quinto:
+ultima busta paga o cedolino della pensione 
+documento d'identità valido
+codice fiscale
+
+Prestiti a pensionati
+Prestiti con cessione del quinto rivolti ai pensionati
+Richiederli è facile, bastano:
+carta d’identità, 
+codice fiscale, 
+cedolino della pensione e modello CUD, 
+Il rimborso ti verrà addebitato direttamente sulla pensione ogni mese (fino a un periodo massimo di 120 mesi).
+I nostri prestiti a pensionati si basano sul concetto di cessione del quinto: per restituire l’importo finanziato, non dovrai fare altro che autorizzare Agos a richiedere la somma al tuo ente pensionistico. La trattenuta massima non supererà 1/5 della tua pensione.
+Con i prestiti per pensionati erogati da Agos puoi dare vita a tanti progetti che tenevi chiusi nel cassetto: un viaggio di piacere dopo una vita trascorsa a lavorare; un aiuto economico per il matrimonio dei tuoi figli; una ristrutturazione alla tua casa. Qualunque sia la finalità di impiego, con i nostri finanziamenti sei libero di utilizzare l’importo come preferisci!
+Fissa un appuntamento presso la filiale Agos più vicina e scopri anche tu la convenienza dei nostri prodotti finanziari: ti aspettiamo!
 
 
-
-Rate Fisse e Pianificabili: Il rimborso avviene tramite rate fisse, semplificando la pianificazione finanziaria per il beneficiario. Questo può essere particolarmente utile per coloro che desiderano evitare sorprese legate a tassi di interesse variabili.
-
-Nessuna Garanzia Personale: La cessione del quinto non richiede garanzie personali aggiuntive. Non è necessario presentare beni o garanzie ulteriori per ottenere il finanziamento.
-
-Copertura Assicurativa: Molte polizze assicurative vengono spesso collegate alla cessione del quinto, garantendo che in caso di decesso o perdita di lavoro, il debito venga coperto.
-
-## Considerazioni Importanti:
-
-Tassi di Interesse: Benché la cessione del quinto offra tassi di interesse generalmente più bassi rispetto ad altri prodotti finanziari, è importante confrontare le offerte di diverse istituzioni finanziarie per assicurarsi di ottenere le condizioni più vantaggiose.
-
-Impatto sulla Pensione o Stipendio: La trattenuta mensile può influire sul reddito disponibile. È fondamentale valutare attentamente l'impatto finanziario prima di impegnarsi in questo tipo di finanziamento.
-
-Limiti al Prestito: La somma massima che può essere ottenuta è limitata al quinto dello stipendio o della pensione. Se si ha bisogno di importi più elevati, potrebbe essere necessario considerare altre forme di finanziamento.
-
-Durata del Finanziamento: La cessione del quinto solitamente ha una durata massima di 120 mesi. È importante valutare attentamente la propria capacità di rimborso nel lungo termine.
-
-In conclusione, la cessione del quinto dello stipendio e della pensione può essere un valido strumento per ottenere liquidità in modo rapido e senza gravare eccessivamente sul bilancio mensile. Tuttavia, è fondamentale valutare attentamente i vantaggi e le considerazioni legate a questo prodotto finanziario prima di prendere una decisione.
+Prestiti a dipendenti pubblici e privati
+Prestiti con cessione del quinto rivolti a dipendenti pubblici e privati
+Sapevi che con la cessione del quinto del tuo stipendio puoi ottenere un prestito non finalizzato, cioè non subordinato a una particolare modalità di impiego della somma richiesta e ricevuta? 
+Se sei un lavoratore dipendente, puoi richiedere uno dei nostri prestiti contro cessione del quinto con una trattenuta in busta paga pari a 1/5 del tuo stipendio. La durata massima dei nostri prestiti per dipendenti pubblici e privati è di 120 mesi. 
+Come funziona la cessione del quinto Agos?
+È semplice: per restituire l’importo finanziato, dovrai solo autorizzare Agos a richiedere al tuo datore di lavoro una quota fino a un massimo di un quinto del tuo stipendio. Più comodo di così!
+Scopri tutti i vantaggi dei nostri prestiti per dipendenti pubblici e privati: clicca sul bottone "Verifica subito", compila i dati richiesti e sarai ricontattato da un nostro consulente per fissare un appuntamento.
