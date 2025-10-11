@@ -1,7 +1,7 @@
 ---
 isFaq: true
 title: Chi può richiedere la Cessione del Quinto?
-sub_title: FAQ 5 - Requisiti per la cessione del quinto
+sub_title: FAQ 5
 order: 5
 layout: blog.html
 ---
