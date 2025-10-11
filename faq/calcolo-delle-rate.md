@@ -1,18 +1,17 @@
 ---
 isFaq: true
-title: Come si calcola la rata della Cessione del Quinto?
-sub_title: FAQ 4 - Calcolo della rata massima
-order: 4
+title: Chi può richiedere la Cessione del Quinto?
+sub_title: FAQ 5
+order: 5
 layout: blog.html
 ---
 
-La rata massima della cessione del quinto non può superare un quinto (20%) del reddito netto mensile (stipendio o pensione). 
+Possono richiedere la cessione del quinto:
 
-**Esempio di calcolo:**
-- Stipendio netto mensile: €2.000
-- Rata massima possibile: €2.000 ÷ 5 = €400 al mese
+1. **Lavoratori dipendenti**: a tempo indeterminato, pubblici e privati.
+2. **Pensionati**: che percepiscono una pensione dall'INPS o da altri enti previdenziali.
 
-Il calcolo viene effettuato sulla base dell'ultimo cedolino o della certificazione unica per determinare l'importo massimo finanziabile.: "Credito al consumo: cos’è?"
+Poiché la cessione del quinto dello stipendio si basa sulla trattenuta della rata in busta paga è una formula di finanziamento che non può essere richiesta dai lavoratori autonomi o i liberi professionisti.: "Credito al consumo: cos’è?"
 sub_title: Con il termine “credito al consumo” si definisce qualsiasi attività
   di finanziamento erogata in favore di un consumatore, ovvero di una persona
   fisica che agisce per scopi estranei all'attività imprenditoriale,

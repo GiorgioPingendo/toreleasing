@@ -1,7 +1,7 @@
 ---
 isFaq: true
 title: Come funziona la Cessione del Quinto?
-sub_title: FAQ 2 - Funzionamento della cessione del quinto
+sub_title: FAQ 2
 order: 2
 layout: blog.html
 ---

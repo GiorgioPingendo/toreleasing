@@ -1,7 +1,7 @@
 ---
 isFaq: true
 title: Quando si può rinnovare la Cessione del Quinto?
-sub_title: FAQ 6 - Rinnovo della cessione del quinto
+sub_title: FAQ 6
 order: 6
 layout: blog.html
 ---
