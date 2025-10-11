@@ -17,6 +17,32 @@
 	<link rel="stylesheet" href="/assets/css/animate.css">
 	<link rel="stylesheet" href="/assets/css/style.css">
 	<link rel="stylesheet" href="/assets/css/media-queries.css">
+	
+	<!-- Fix FAQ Layout -->
+	<style>
+		.how-it-works-box {
+			min-height: 350px;
+			margin-bottom: 30px;
+			display: flex;
+			flex-direction: column;
+		}
+
+		.how-it-works-box h3 {
+			min-height: 60px;
+		}
+
+		.how-it-works-box div,
+		.how-it-works-box p {
+			flex-grow: 1;
+		}
+
+		/* Per schermi più piccoli */
+		@media (max-width: 768px) {
+			.how-it-works-box {
+				min-height: auto;
+			}
+		}
+	</style>
 
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
