@@ -276,9 +276,6 @@
 				<div class="col-sm-4 how-it-works-box wow {% if loop.index0 % 3 == 0 %}fadeInUp{% elif loop.index0 % 3 == 1 %}fadeInDown{% else %}fadeInUp{% endif %}">
 					<div class="how-it-works-number">{{ faq.data.order }}</div>
 					<h3>{{ faq.data.title }}</h3>
-					{% if faq.data.sub_title %}
-					<p class="faq-subtitle"><strong>{{ faq.data.sub_title }}</strong></p>
-					{% endif %}
 					<div>{{ faq.templateContent | safe }}</div>
 				</div>
 				{% endfor %}
