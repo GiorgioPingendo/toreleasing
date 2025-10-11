@@ -1,9 +1,9 @@
 ---
-title: Cessione del quinto
-sub_title: "La Cessione del Quinto rientra nella categoria dei prodotti del
-  credito al consumo: è un finanziamento dedicato ai lavoratori dipendenti
-  pubblici o privati e ai pensionati in cui la rata di rimborso viene trattenuta
-  in busta paga o sul cedolino della pensione direttamente dal datore di lavoro
-  o dall'ente."
-order: 3
+isFaq: true
+title: Che cos'è la Cessione del Quinto?
+sub_title: FAQ 1 - Definizione di cessione del quinto
+order: 1
+layout: blog.html
 ---
+
+La cessione del quinto dello stipendio o della pensione è un finanziamento dedicato ai lavoratori dipendenti pubblici o privati e ai pensionati in cui la rata di rimborso viene trattenuta in busta paga o sul cedolino della pensione, direttamente dal datore di lavoro o dall'ente pensionistico.

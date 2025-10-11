@@ -1,7 +1,14 @@
 ---
-title: "TAN e TAEG: cosa sono?"
-sub_title: Il TAN (Tasso Annuo Nominale) è il tasso di interesse applicato su un
-  prestito o mutuo, espresso in percentuale e su base annua. Il TAEG (Tasso
-  Annuo Effettivo Globale), è il costo totale del prestito su base annuale.
-order: 2
+isFaq: true
+title: Chi può richiedere la Cessione del Quinto?
+sub_title: FAQ 5 - Requisiti per la cessione del quinto
+order: 5
+layout: blog.html
 ---
+
+Possono richiedere la cessione del quinto:
+
+1. **Lavoratori dipendenti**: a tempo indeterminato, pubblici e privati.
+2. **Pensionati**: che percepiscono una pensione dall'INPS o da altri enti previdenziali.
+
+Poiché la cessione del quinto dello stipendio si basa sulla trattenuta della rata in busta paga è una formula di finanziamento che non può essere richiesta dai lavoratori autonomi o i liberi professionisti.
