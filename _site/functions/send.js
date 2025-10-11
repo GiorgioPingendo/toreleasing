@@ -8,7 +8,7 @@ exports.handler = async (event, context) => {
   }
 
   const formData = querystring.parse(event.body);
-  const {name, phone , email, residenza } = formData;
+  const {name, phone , email, citta, provincia } = formData;
   sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
 
@@ -16,7 +16,7 @@ exports.handler = async (event, context) => {
     to: ['giorgio.seregni@gmail.com', 'tore_free@hotmail.com'],
     from: email,
     subject: `contatto da prestitoin.it `,
-    text: `Nome: ${name}\nTelefono: ${phone}\nEmail: ${email}\nResidenza: ${residenza}`
+  text: `Nome: ${name}\nTelefono: ${phone}\nEmail: ${email}\nCittà: ${citta}\nProvincia: ${provincia}`
   };
   try {
     await sgMail.send(msg);
