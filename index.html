@@ -273,15 +273,13 @@
 			<!-- FAQ dinamiche da collezione Eleventy -->
 			<div class="row">
 				{% for faq in collections.faq %}
-				<div class="col-sm-4 how-it-works-box wow {% cycle 'fadeInUp', 'fadeInDown', 'fadeInUp' %}">
-					<div class="how-it-works-number">{{ faq.data.order | default: forloop.index }}</div>
+				<div class="col-sm-4 how-it-works-box wow {% if loop.index0 % 3 == 0 %}fadeInUp{% elif loop.index0 % 3 == 1 %}fadeInDown{% else %}fadeInUp{% endif %}">
+					<div class="how-it-works-number">{{ faq.data.order }}</div>
 					<h3>{{ faq.data.title }}</h3>
 					{% if faq.data.sub_title %}
 					<p class="faq-subtitle"><strong>{{ faq.data.sub_title }}</strong></p>
 					{% endif %}
-					{% if faq.content %}
-					<p>{{ faq.content | strip_html | truncate: 150 }}</p>
-					{% endif %}
+					<div>{{ faq.templateContent | safe }}</div>
 				</div>
 				{% endfor %}
 			</div>
