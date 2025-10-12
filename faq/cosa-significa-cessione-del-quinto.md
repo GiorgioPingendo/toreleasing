@@ -1,7 +1,6 @@
 ---
 isFaq: true
 title: Cosa significa cessione del quinto?
-sub_title: FAQ 3
 order: 3
 layout: blog.html
 ---

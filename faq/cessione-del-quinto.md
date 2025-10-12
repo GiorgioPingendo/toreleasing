@@ -1,7 +1,6 @@
 ---
 isFaq: true
 title: Che cos'è la Cessione del Quinto?
-sub_title: FAQ 1
 order: 1
 layout: blog.html
 ---
