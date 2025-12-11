@@ -12,9 +12,11 @@ layout: blog.html
 La cessione del quinto dello stipendio o della pensione è un finanziamento dedicato ai lavoratori dipendenti pubblici o privati e ai pensionati in cui la rata di rimborso viene trattenuta  in busta paga o sul cedolino della pensione direttamente dal datore di lavoro o dall'ente.
 
 COME FUNZIONA LA CESSIONE DEL QUINTO AGOS?
+
 La cessione del quinto a dipendenti pubblici e privati e ai pensionati offre la serenità di una rata fissa che non può superare il 20% dell'importo dello stipendio netto o della pensione, per finanziare i tuoi progetti come la ristrutturazione di una casa o l'acquisto di un'auto.
 
 QUALI SONO I VANTAGGI DELLA CESSIONE DEL QUINTO?
+
 La comodità di richiedere importi elevati, rimborsando fino a 120 mesi.
 La copertura di polizze rischio vita e rischio impiego obbligatorie per legge, con costi a carico di Agos.
 Non è necessario un garante.
