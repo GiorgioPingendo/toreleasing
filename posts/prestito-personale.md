@@ -11,5 +11,6 @@ layout: blog.html
 
 
 
-Il prestito personale di AGOS è una forma di concessione di credito alla persona che lo richiede per rispondere a specifiche necessità. Può essere richiesto per affrontare la ristrutturazione della casa, per l’acquisto della nuova auto, così come per sostenere spese mediche, accedere a un percorso di studi, affrontare le spese per il matrimonio o altre necessità.
+I prestiti personali ti consentono di dare forma a tutti i tuoi progetti di vita.
+Il prestito personale Agos è comodo, flessibile e commisurato alle tue esigenze.
 							
