@@ -1,9 +1,7 @@
-const sgMail = require('@sendgrid/mail');
 const { google } = require('googleapis');
-var x = require('dotenv').config();
+require('dotenv').config();
 const querystring = require('querystring');
 
-// Configura Google Sheets
 async function appendToSheet(data) {
   const auth = new google.auth.GoogleAuth({
     credentials: {
@@ -29,38 +27,25 @@ async function appendToSheet(data) {
 }
 
 exports.handler = async (event, context) => {
-
   if (event.httpMethod !== 'POST') {
     return { statusCode: 405, body: 'Method Not Allowed' };
   }
 
   const formData = querystring.parse(event.body);
   const { name, surname, phone, email, citta, provincia } = formData;
-  sgMail.setApiKey(process.env.SENDGRID_API_KEY);
-
-  const msg = {
-    to: ['giorgio.seregni@gmail.com', 'tore_free@hotmail.com'],
-    from: email,
-    subject: `Contatto da prestitoin.it - ${name} ${surname}`,
-    text: `Nome: ${name}\nCognome: ${surname}\nTelefono: ${phone}\nEmail: ${email}\nCittà: ${citta}\nProvincia: ${provincia}`
-  };
 
   try {
-    // Prima salva il lead su Google Sheets
     await appendToSheet({ name, surname, phone, email, citta, provincia });
-
-    // Poi invia l'email
-    await sgMail.send(msg);
 
     return {
       statusCode: 200,
-      body: JSON.stringify({ message: 'Email sent and lead saved' })
+      body: JSON.stringify({ message: 'Lead saved' })
     };
   } catch (error) {
     console.error('Error:', error);
     return {
       statusCode: 500,
-      body: JSON.stringify({ message: 'Error processing request', error: error.toString() })
+      body: JSON.stringify({ message: 'Error saving lead', error: error.toString() })
     };
   }
 };
