@@ -88,7 +88,8 @@ jQuery(document).ready(function() {
 					$('.top-content').backstretch("resize");
 				});
 			},
-			error: function() {
+			error: function(error) {
+				console.log("ERROR ", error )
 				$button.prop('disabled', false).text(originalText);
 				alert('Errore durante l\'invio. Riprova più tardi.');
 			}
