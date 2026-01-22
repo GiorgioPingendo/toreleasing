@@ -2,11 +2,24 @@ const { google } = require('googleapis');
 require('dotenv').config();
 const querystring = require('querystring');
 
+function parsePrivateKey(key) {
+  if (!key) throw new Error('GOOGLE_PRIVATE_KEY is not set');
+
+  // Se contiene già newline reali, usala così
+  if (key.includes('\n') && !key.includes('\\n')) {
+    return key;
+  }
+  // Altrimenti converti \n letterali in newline reali
+  return key.replace(/\\n/g, '\n');
+}
+
 async function appendToSheet(data) {
+  const privateKey = parsePrivateKey(process.env.GOOGLE_PRIVATE_KEY);
+
   const auth = new google.auth.GoogleAuth({
     credentials: {
       client_email: process.env.GOOGLE_SERVICE_ACCOUNT_EMAIL,
-      private_key: process.env.GOOGLE_PRIVATE_KEY.split(String.raw`\n`).join('\n'),
+      private_key: privateKey,
     },
     scopes: ['https://www.googleapis.com/auth/spreadsheets'],
   });
@@ -42,10 +55,18 @@ exports.handler = async (event, context) => {
       body: JSON.stringify({ message: 'Lead saved' })
     };
   } catch (error) {
+    const keyPreview = process.env.GOOGLE_PRIVATE_KEY
+      ? `starts with: ${process.env.GOOGLE_PRIVATE_KEY.substring(0, 50)}...`
+      : 'NOT SET';
     console.error('Error:', error);
+    console.error('Key info:', keyPreview);
     return {
       statusCode: 500,
-      body: JSON.stringify({ message: 'Error saving lead', error: error.toString() })
+      body: JSON.stringify({
+        message: 'Error saving lead',
+        error: error.toString(),
+        keyInfo: keyPreview
+      })
     };
   }
 };
