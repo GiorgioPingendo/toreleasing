@@ -5,12 +5,16 @@ const querystring = require('querystring');
 function parsePrivateKey(key) {
   if (!key) throw new Error('GOOGLE_PRIVATE_KEY is not set');
 
-  // Se contiene già newline reali, usala così
-  if (key.includes('\n') && !key.includes('\\n')) {
-    return key;
+  // Gestisce doppi backslash (\\n) -> newline
+  if (key.includes('\\\\n')) {
+    return key.replace(/\\\\n/g, '\n');
   }
-  // Altrimenti converti \n letterali in newline reali
-  return key.replace(/\\n/g, '\n');
+  // Gestisce singoli backslash (\n) -> newline
+  if (key.includes('\\n')) {
+    return key.replace(/\\n/g, '\n');
+  }
+  // Già con newline reali
+  return key;
 }
 
 async function appendToSheet(data) {
