@@ -62,29 +62,37 @@ jQuery(document).ready(function() {
 	
 	/*
 	    Contact form
-	*/	
-	$('.c-form-1-box form input[type="text"], .c-form-1-box form textarea').on('focus', function() {
-		$('.c-form-1-box form input[type="text"], .c-form-1-box form textarea').removeClass('contact-error');
+	*/
+	$('.c-form-1-box form input').on('focus', function() {
+		$(this).removeClass('contact-error');
 	});
 
 	$('.c-form-1-box form').submit(function(e) {
 		e.preventDefault();
-	    $('.c-form-1-box form input[type="text"], .c-form-1-box form textarea').removeClass('contact-error');
-	    var postdata = $(this).serialize();
-	    $.ajax({
-	        type: 'POST',
-	        url: '/.netlify/functions/send',
-	        data: postdata,
-	        dataType: 'json',
-	        success: function(json) {
+		var $form = $(this);
+		var $button = $form.find('button[type="submit"]');
+		var originalText = $button.text();
 
-				$('.c-form-1-box form').fadeOut('fast', function() {
+		$button.prop('disabled', true).text('Invio...');
+		$form.find('input').removeClass('contact-error');
+
+		var postdata = $form.serialize();
+		$.ajax({
+			type: 'POST',
+			url: '/.netlify/functions/send',
+			data: postdata,
+			dataType: 'json',
+			success: function(json) {
+				$form.fadeOut('fast', function() {
 					$('.c-form-1-bottom').append('<p>GRAZIE PER IL TUO CONTATTO!</p>');
-					// reload background
 					$('.top-content').backstretch("resize");
 				});
-	        }
-	    });
+			},
+			error: function() {
+				$button.prop('disabled', false).text(originalText);
+				alert('Errore durante l\'invio. Riprova più tardi.');
+			}
+		});
 	});
 	
 });
