@@ -5,3 +5,9 @@
 
 [dev]
     functions = "functions/"
+
+[[headers]]
+    for = "/media/*.pdf"
+    [headers.values]
+        Content-Disposition = "inline"
+        Content-Type = "application/pdf"
